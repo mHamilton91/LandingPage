@@ -28,11 +28,10 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	//background-color: #2C3531;
 }
 
 #links {
-	//background-color: #FFF;
+	/*background-color: #FFF;*/
 	width: 300px;
 	display: flex;
 	justify-content: space-around;
@@ -73,4 +72,16 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	right: 0;
+}
+
+#images {
+	margin-top: 200px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.codeSlides {
+	width: 100%;
+	max-width: 900px;
+	
 }
