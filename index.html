@@ -4,6 +4,8 @@
 	<title>Martin Hamilton</title>
 	<link rel="icon" href="MH_Logo.png">
 	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="LP_jquery.js"></script>
 </head>
 <div>
 	<!--<img id="center" src="Tesseract_Center.png">-->
@@ -12,8 +14,8 @@
 	<nav>
 		<a href="index.html" id="logo_icon"></a>
 		<div id="links">
-			<a href="#imageGrid"><h2>Projects</h2></a>
-			<a href="#contact"><h2>Contacts</h2></a>
+			<a id="projects" href="#imageGrid"><h2>Projects</h2></a>
+			<a id="Contact" href="#contact"><h2>Contact</h2></a>
 		</div>
 	</nav>
 	<section id="intro">
@@ -25,12 +27,27 @@
 	<main>
 		<div id="imageGrid">
 			<div id="innerImageGrid">
-				<a href="https://mhamilton91.github.io/Tip-Calculator/"><img class="siteScreenshot" src="TipCalc.png"></a>
-				<a href="https://mhamilton91.github.io/Clock/"><img class="siteScreenshot" src="Clock.png"></a>
+				<div id="tipDiv">
+					<a href="#"><img id="tipCalcScreenshot" class="siteScreenshot" src="TipCalc.png"></a>
+					<p id="tipCalcDes" class="descriptions">Tip Calculator<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Lectus quam id leo in. Et tortor at risus viverra adipiscing at in. Iaculis nunc sed augue lacus viverra vitae congue eu. Feugiat in fermentum posuere urna. In aliquam sem fringilla ut morbi tincidunt. Malesuada fames ac turpis egestas maecenas pharetra. Lacus suspendisse faucibus interdum posuere lorem ipsum. Sit amet mattis vulputate enim nulla. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Amet purus gravida quis blandit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Consequat id porta nibh venenatis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Adipiscing vitae proin sagittis nisl rhoncus mattis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
+				</div>
+				<div id="clockDiv">
+					<a href="#"><img id="clockScreenshot" class="siteScreenshot" src="Clock.png"></a>
+					<p id="clockDes" class="descriptions">Javascript Clock<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Lectus quam id leo in. Et tortor at risus viverra adipiscing at in. Iaculis nunc sed augue lacus viverra vitae congue eu. Feugiat in fermentum posuere urna. In aliquam sem fringilla ut morbi tincidunt. Malesuada fames ac turpis egestas maecenas pharetra. Lacus suspendisse faucibus interdum posuere lorem ipsum. Sit amet mattis vulputate enim nulla. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Amet purus gravida quis blandit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Consequat id porta nibh venenatis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Adipiscing vitae proin sagittis nisl rhoncus mattis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
+				</div>
 			</div>
-			<a href="https://mhamilton91.github.io/FCC-Product-Landing-Page/"><img class="siteScreenshot" src="LumiExampleLandingPage.png"></a>
-			<a href="https://mhamilton91.github.io/Drum-Kit/"><img class="siteScreenshot" src="DrumKit.png"></a>
-			<a href="https://mhamilton91.github.io/Leona/"><img class="siteScreenshot" src="Leona.png"></a>
+			<div id="lumiDiv">
+				<a href="#"><img id="lumiScreenshot" class="siteScreenshot" src="LumiExampleLandingPage.png"></a>
+				<p id="lumiDes" class="descriptions">Product Landing Page: Lumi<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Lectus quam id leo in. Et tortor at risus viverra adipiscing at in. Iaculis nunc sed augue lacus viverra vitae congue eu. Feugiat in fermentum posuere urna. In aliquam sem fringilla ut morbi tincidunt. Malesuada fames ac turpis egestas maecenas pharetra. Lacus suspendisse faucibus interdum posuere lorem ipsum. Sit amet mattis vulputate enim nulla. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Amet purus gravida quis blandit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Consequat id porta nibh venenatis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Adipiscing vitae proin sagittis nisl rhoncus mattis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
+			</div>
+			<div id="drumKitDiv">
+				<a href="#"><img id="drumKitScreenshot" class="siteScreenshot" src="DrumKit.png"></a>
+				<p id="drumKitDes" class="descriptions">Javascript Interactive Drum Kit<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Lectus quam id leo in. Et tortor at risus viverra adipiscing at in. Iaculis nunc sed augue lacus viverra vitae congue eu. Feugiat in fermentum posuere urna. In aliquam sem fringilla ut morbi tincidunt. Malesuada fames ac turpis egestas maecenas pharetra. Lacus suspendisse faucibus interdum posuere lorem ipsum. Sit amet mattis vulputate enim nulla. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Amet purus gravida quis blandit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Consequat id porta nibh venenatis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Adipiscing vitae proin sagittis nisl rhoncus mattis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
+			</div>
+			<div id="leonaDiv">
+				<a href="#"><img id="leonaScreenshot" class="siteScreenshot" src="Leona.png"></a>
+				<p id="leonaDes" class="descriptions">Leona Band Page(Under Construction)<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Lectus quam id leo in. Et tortor at risus viverra adipiscing at in. Iaculis nunc sed augue lacus viverra vitae congue eu. Feugiat in fermentum posuere urna. In aliquam sem fringilla ut morbi tincidunt. Malesuada fames ac turpis egestas maecenas pharetra. Lacus suspendisse faucibus interdum posuere lorem ipsum. Sit amet mattis vulputate enim nulla. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Amet purus gravida quis blandit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Consequat id porta nibh venenatis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Adipiscing vitae proin sagittis nisl rhoncus mattis. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
+			</div>
 		</div>
 	</main>
 </body>
